@@ -1,6 +1,8 @@
 public class Iterativ_Methode {
     public static void main(String[] args) {
 
+
+        //Aufwandsklasse ist der Log von 10
         // Binary Search in Java
                 char array[] = { 'a', 'b', 'c', 'd', 'e', 'f' };
                 int n = array.length;
@@ -33,7 +35,6 @@ public class Iterativ_Methode {
 
 
     }
-
 
 
 
