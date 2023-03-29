@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Endrekursion.iml" filepath="$PROJECT_DIR$/Endrekursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/4BHW_Mallaun_SWP.iml" filepath="$PROJECT_DIR$/.idea/4BHW_Mallaun_SWP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Endrekursion/Endrekursion.iml" filepath="$PROJECT_DIR$/Endrekursion/Endrekursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Summenfunktion/Summenfunktion.iml" filepath="$PROJECT_DIR$/Summenfunktion/Summenfunktion.iml" />
     </modules>
   </component>
 </project>
