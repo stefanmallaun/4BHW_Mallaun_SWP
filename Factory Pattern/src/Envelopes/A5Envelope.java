@@ -1,3 +1,5 @@
+package Envelopes;
+
 public class A5Envelope implements Envelope{
 
         private int weight;

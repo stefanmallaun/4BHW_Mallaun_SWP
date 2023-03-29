@@ -1,4 +1,5 @@
-import java.util.Locale;
+package Envelopes;
+
 import java.util.Scanner;
 
 public class EnvelopeMain {

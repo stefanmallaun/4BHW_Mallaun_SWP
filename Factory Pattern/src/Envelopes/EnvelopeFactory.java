@@ -1,3 +1,5 @@
+package Envelopes;
+
 public class EnvelopeFactory {
 
     Envelope createEnvelope(String type, int weight) {
