@@ -8,6 +8,12 @@ public class Main {
         berlinPizzeria.cutPizza(berlinSalamiPizza);
         berlinPizzeria.packPizza(berlinSalamiPizza);
 
+        Pizza berlinHawaii = berlinPizzeria.createPizza("Hawaii");
+        berlinHawaii.prepare();
+        berlinPizzeria.bakePizza(berlinHawaii);
+        berlinPizzeria.cutPizza(berlinHawaii);
+        berlinPizzeria.packPizza(berlinHawaii);
+
         // Bestellung in Hamburg
         Pizzeria hamburgPizzeria = new HamburgPizzeria();
         Pizza hamburgHawaiiPizza = hamburgPizzeria.createPizza("Hawaii");
