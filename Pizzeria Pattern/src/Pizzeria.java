@@ -1,7 +1,3 @@
-
-
-
-
 abstract class Pizzeria {
     public abstract Pizza createPizza(String type);
     public void bakePizza(Pizza pizza) {
