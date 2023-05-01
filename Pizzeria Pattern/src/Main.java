@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         // Bestellung in Berlin
         Pizzeria berlinPizzeria = new BerlinPizzeria();
-        Pizza berlinSalamiPizza = berlinPizzeria.createPizza("Salami");
+        Pizza berlinSalamiPizza = berlinPizzeria.createPizza("Hawaii");
         berlinSalamiPizza.prepare();
         berlinPizzeria.bakePizza(berlinSalamiPizza);
         berlinPizzeria.cutPizza(berlinSalamiPizza);
