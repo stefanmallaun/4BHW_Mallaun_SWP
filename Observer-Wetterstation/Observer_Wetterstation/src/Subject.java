@@ -13,11 +13,23 @@ public abstract class Subject {
         observerList.remove(newObserver);
     }
 
+    //Push-Methode
+    /*
     protected void notifyObservers(int state){
         for (Observer observer : observerList) {
             observer.update(state);
         }
     }
+    */
+
+
+    protected void pullNotifyObservers(Wetterstation wetterstation){
+        for (Observer observer : observerList) {
+            observer.update(wetterstation);
+        }
+    }
+
+
 }
 
 

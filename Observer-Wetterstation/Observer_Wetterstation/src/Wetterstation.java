@@ -10,7 +10,8 @@ public class Wetterstation extends Subject{
     public void setState(int state){
         this.state = state;
 
-        notifyObservers(state);
+        //notifyObservers(state);
+        pullNotifyObservers(Wetterstation.this);
     }
     public int getState(){
         return state;
