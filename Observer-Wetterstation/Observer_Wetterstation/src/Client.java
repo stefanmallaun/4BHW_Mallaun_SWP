@@ -6,7 +6,7 @@ public class Client {
 
         Random rand= new Random();
 
-        int state = rand.nextInt(-20, 50);
+        int state = rand.nextInt(50) - 20;
 
 
         Wetterstation concreteSubject = new Wetterstation();
