@@ -7,7 +7,7 @@ public class ProxyInternet implements Internet{
 
     private Internet internet = new RealInternet();
 
-    private static List<String> bannedSites;
+    static List<String> bannedSites;
 
     static
     {
